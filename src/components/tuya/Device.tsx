@@ -137,7 +137,7 @@ const DevicePage: React.FC = () => {
             />
           </FlexContainer>
 
-          <img src="../public/dashboard.png" alt="" height={600} width={1500} style={{marginTop: '50px'}} />
+          <img src="https://github.com/SagarKarmoker/cse407dashboard/blob/main/public/dashboard.png?raw=true" alt="" height={600} width={1500} style={{marginTop: '50px'}} />
         </>
       ) : (
         "No data found"
