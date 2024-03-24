@@ -137,28 +137,7 @@ const DevicePage: React.FC = () => {
             />
           </FlexContainer>
 
-          {/* <Label>Location:</Label>
-          <div style={{ height: "400px", width: "600px" }}>
-            <MapContainer
-              center={[Number(deviceInfo.lat), Number(deviceInfo.lon)]}
-              zoom={16}
-              style={{ height: "400px", width: "600px" }}
-            >
-              <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              />
-              <Marker
-                position={[Number(deviceInfo.lat), Number(deviceInfo.lon)]}
-              >
-                <Popup>
-                  Latitude: {deviceInfo.lat}
-                  <br />
-                  Longitude: {deviceInfo.lon}
-                </Popup>
-              </Marker>
-            </MapContainer>
-          </div> */}
+          <img src="../public/dashboard.png" alt="" height={600} width={1500} style={{marginTop: '50px'}} />
         </>
       ) : (
         "No data found"
