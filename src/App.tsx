@@ -83,15 +83,15 @@ function App() {
     <HomeContainer>
       <Overlay>
         <div>
-          <Title>S.E.M</Title>
-          <Subtitle>IoT based real-time energy monitoring</Subtitle>
+          <Title>CSE407 MidTerm Project</Title>
+          <Subtitle>An IoT based real-time energy monitoring</Subtitle>
         </div>
         <CardsContainer>
-          <CardButton to="/esp32">
+          {/* <CardButton to="/esp32">
             <Text>ESP32</Text>
-          </CardButton>
+          </CardButton> */}
           <CardButton to="/tuya">
-            <Text>Tuya</Text>
+            <Text>Goto Dashboard</Text>
           </CardButton>
         </CardsContainer>
       </Overlay>
