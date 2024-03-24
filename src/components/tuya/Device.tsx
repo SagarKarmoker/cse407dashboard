@@ -5,7 +5,6 @@ import duration from "dayjs/plugin/duration";
 import relativeTime from "dayjs/plugin/relativeTime";
 import "leaflet/dist/leaflet.css";
 import { useCallback, useEffect, useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import styled from "styled-components";
 
 dayjs.extend(duration);

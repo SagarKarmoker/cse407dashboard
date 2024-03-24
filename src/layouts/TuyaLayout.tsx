@@ -1,4 +1,4 @@
-import { Drawer, Image } from "antd";
+import { Drawer} from "antd";
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import styled from "styled-components";
@@ -42,9 +42,6 @@ const MainContainer = styled.main<{ is_open?: string }>`
 const menuItems = [
   { url: "/tuya/device", label: "DEVICE INFO" },
   { url: "/tuya/meter", label: "CONSUME HISTORY" },
-  // { url: "/tuya/current", label: "CURRENT" },
-  // { url: "/tuya/voltage", label: "VOLTAGE" },
-  // { url: "/tuya/kwh", label: "kWh" },
   { url: "/tuya/calc", label: "COST CALCULATION" },
   { url: "/tuya/calc", label: "OUR TEAM" },
 ];
